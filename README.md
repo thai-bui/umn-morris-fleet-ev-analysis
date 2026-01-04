@@ -3,7 +3,7 @@
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-## 📌 Project Overview
+##  Project Overview
 This was a project I led during my time as a Sustainability Data Analyst Intern at the University of Minnesota.  
 The project analyzes **three years of fleet ethanol billing data (FY22–FY24)** from the University of Minnesota - Morris Campus to identify **opportunities for electrification**.  
 I consolidated billing records, standardized vehicle information, and developed a **prioritization framework** to rank vehicles for EV replacement.  
@@ -13,7 +13,7 @@ I consolidated billing records, standardized vehicle information, and developed 
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 UMN as a system is committed to **carbon neutrality by 2050**.  
 The Morris fleet contributes significantly to campus emissions, but **no unified dataset** existed for decision-making.  
 This project answers:  
@@ -23,7 +23,7 @@ This project answers:
 
 ---
 
-## 🔄 Data Workflow
+##  Data Workflow
 Raw data: ethanol billing records (FY22–FY24), vehicle inventory list, grounds equipment list.  
 
 **Key Cleaning Steps:**
@@ -42,7 +42,7 @@ Scripts:
 
 ---
 
-## 🔒 Data Availability
+##  Data Availability
 The **original raw dataset** (ethanol billing and vehicle inventory records) is **not included in this repository due to privacy and institutional data-sharing restrictions**.  
 Only processed/cleaned outputs and scripts are available here to illustrate the workflow and methodology.  
 
@@ -79,7 +79,7 @@ All visualizations built in **Tableau Public** (originally in Tableau Desktop):
 
 ---
 
-## 🧮 Prioritization Framework
+##  Prioritization Framework
 I created a composite score to rank vehicles for EV replacement:  
 
 **Priority Score = (0.30 * Age) + (0.25 * FuelUse) + (0.20 * Utilization) + (0.20 * EVFit) + (0.05 * Winter Suitability)**  
@@ -96,7 +96,7 @@ I created a composite score to rank vehicles for EV replacement:
 
 ---
 
-## ✅ Recommendations
+##  Recommendations
 - **Departments**: Focus electrification pilots in **Facilities Management** and **Rental Fleet**.  
 - **Vehicle Types**: Start with **SUVs, Sedans, and Cargo Vans**.  
 - **Top 10 Vehicles**: Start looking at opportunities within this list.  
@@ -104,7 +104,7 @@ I created a composite score to rank vehicles for EV replacement:
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 - Fuel billing records were collected across multiple sources without a standardized process, resulting in inconsistent IDs and department codes.  
 - Several null values in niche fields (e.g., usage notes, sub-department tags) required assumptions and business rules.  
 - Mileage estimated from fuel efficiency × gallons (no odometer data).  
@@ -114,7 +114,7 @@ I created a composite score to rank vehicles for EV replacement:
 
 ---
 
-## 📚 References
+##  References
 - American Automobile Association. (2019, February 7). *Cold Weather Reduces Electric Vehicle Range*. AAA Newsroom.  
   https://newsroom.aaa.com/2019/02/cold-weather-reduces-electric-vehicle-range/  
 
@@ -128,3 +128,4 @@ I created a composite score to rank vehicles for EV replacement:
 
 👤 **Author**: Thai Bui  
 📧 [LinkedIn](https://www.linkedin.com/in/thai-hoang-bui)  
+
