@@ -30,7 +30,7 @@ Raw data: ethanol billing records (FY22–FY24), vehicle inventory list, grounds
 - Added vehicle attributes: **Duty Type, Model Year, Fuel Efficiency**.  
 - Created derived fields: **Mileage = Gallons × Fuel Efficiency**, **Fiscal Year (FY)**.  
 
-📂 Clean dataset exported as:  
+Clean dataset exported as:  
 [`data/Ethanol_Billing_Combined_Clean.xlsx`](data/Ethanol_Billing_Combined_Clean.xlsx)  
 
 Scripts:  
@@ -45,9 +45,9 @@ Only processed/cleaned outputs and scripts are available here to illustrate the 
 
 ---
 
-## 📊 Dashboard & Visuals
+## Dashboard & Visuals
 All visualizations built in **Tableau Public** (originally in Tableau Desktop):  
-👉 [View Tableau Dashboard](https://public.tableau.com/app/profile/thai.bui1819/viz/MorrisFleetFuel/Dashboard?publish=yes)
+[View Tableau Dashboard](https://public.tableau.com/app/profile/thai.bui1819/viz/MorrisFleetFuel/Dashboard?publish=yes)
 
 ### Key Insights:
 1. **Fuel Usage by Department**  
@@ -87,7 +87,7 @@ I created a composite score to rank vehicles for EV replacement:
 - **EVFit**: availability of EV products by duty type (e.g., sedans = high, medium trucks = low). EVFit scores were assigned based on global EV availability data. Light-duty vehicles (sedans, SUVs, vans) made up 99% of global EV sales in 2022, while heavy-duty vehicles (trucks, buses) represented only 1% of sales with availability concentrated in China and a few early-adopting regions (ICCT et al., 2023).  
 - **Winter Suitability**: cold-weather reliability proxy. All EVs experience 25–40% range reduction in winter (American Automobile Association, 2019; NREL, 2025). Suitability varies by duty type not because of different technology, but because some duties (short local trips) can tolerate reduced range while others (long-haul, heavy-load, winter-critical operations) cannot.  
 
-📂 Outputs:  
+ Outputs:  
 - [`output/Top10_Priority.xlsx`](output/Top10_Priority.xlsx) — top 10 vehicles with prioritization  
 - [`output/EV_Transition_Prioritization.xlsx`](output/EV_Transition_Prioritization.xlsx) — full list with prioritization scores  
 
