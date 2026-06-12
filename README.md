@@ -1,7 +1,4 @@
 # UMN Morris Fleet Fuel Usage & EV Transition Analysis
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ##  Project Overview
 This was a project I led during my time as a Sustainability Data Analyst Intern at the University of Minnesota.  
